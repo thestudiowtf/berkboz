@@ -1,0 +1,156 @@
+@import "normalize.css";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+@font-face {
+    font-family: 'Akkurat Pro';
+    src: url(../fonts/AkkuratPro-Bold.eot);
+    src: url(../fonts/AkkuratPro-Bold.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/AkkuratPro-Bold.woff2) format('woff2'),
+        url(../fonts/AkkuratPro-Bold.woff) format('woff'),
+        url(../fonts/AkkuratPro-Bold.ttf) format('truetype'),
+        url(../fonts/AkkuratPro-Bold.svg#AkkuratPro-Bold) format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akkurat Light Pro';
+    src: url(../fonts/AkkuratLightPro-Regular.eot);
+    src: url(../fonts/AkkuratLightPro-Regular.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/AkkuratLightPro-Regular.woff2) format('woff2'),
+        url(../fonts/AkkuratLightPro-Regular.woff) format('woff'),
+        url(../fonts/AkkuratLightPro-Regular.ttf) format('truetype'),
+        url(../fonts/AkkuratLightPro-Regular.svg#AkkuratLightPro-Regular) format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    background: #fff;
+    font-family: "Akkurat Pro", Helvetica, sans-serif;
+    color: #272727;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+#container {
+    width: auto;
+    max-width: 700px;
+    margin-left: 100px;
+}
+
+h2 {
+    font-family: Akkurat Light Pro;
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 40px;
+    margin-bottom: 47px;
+}
+ 
+h2 b {
+    font-family: Akkurat Pro;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 17px;
+    color: #272727;
+    letter-spacing: -0.57px;
+}
+
+.para {
+    margin-bottom: 20px;
+}
+
+#intro {
+    margin-bottom: 110px;
+}
+
+#list {
+    padding: 0;
+    padding-left: 60px;
+    margin-bottom: 100px;
+}
+
+#list:before {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background: #A9A9A9;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 6px;
+}
+
+#list span.subhead {
+    font-size: 14px;
+    color: #A9A9A9;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: block;
+    font-weight: bold;
+}
+
+#list ul {
+    display: inline;
+    padding: 0;
+}
+
+#list ul li {
+     list-style-type: none;
+}
+
+#list ul li h3 {
+    font-family: Akkurat Pro;
+    font-size: 19px;
+    color: #272727;
+    letter-spacing: -0.3px;
+    margin-bottom: 12px;
+}
+
+#list ul li h3 span {
+    font-family: Akkurat Light Pro;
+}
+
+#list ul li p {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.avatar {
+    background: url(../avatar.png) no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 166px;
+    margin-bottom: 60px;
+    margin-top: 55px;
+}
+
+.header {
+    margin-top: 60px;
+}
+
+.header h3 {
+    font-size: 19px;
+    color: #A9A9A9;
+    letter-spacing: -0.63px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.social-icons li {
+    float: left;
+    margin-left: 10px;
+}
+
+.social-icons li a {
+    color: #aaa; 
+}
